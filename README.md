@@ -1,4 +1,4 @@
-# Nintendo-Go
+![Nintendo GO](./src/images/logo.svg)
 
 ### O que é?
 Repositorio do projeto 1 da diciplina de Co-Design de Aplicativos realizado no primeiro semestre de 2021.
