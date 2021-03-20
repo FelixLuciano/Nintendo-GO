@@ -1,0 +1,21 @@
+main > * {
+    margin-top: 1rem;
+}
+
+main > ul {
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+main > ul > li > a > img {
+    height: 150px;
+    border-radius: 0.75rem;
+}
+
+main > ul > li + li {
+    margin-left: 20px;
+}
