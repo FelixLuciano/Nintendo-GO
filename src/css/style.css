@@ -3,7 +3,7 @@
 
 body {
     background-color: #F1F1F1;
-    padding: 0 .8rem;
+    padding: 0 .8rem 4rem .8rem;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -85,31 +85,40 @@ main > * {
     margin-top: 1rem;
 }
 
+h1 {
+    margin: .75rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h2 {
+    margin: .5rem;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+h3 {
+    margin: .5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h4 {
+    margin: .5rem;
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1rem;
+    margin-left: .5rem;
+}
+
+a {
+    color: #F44;
+    text-decoration: none;
+}
+
 /* REVISAR */
-
-main > ul {
-    height: 150px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    overflow-y: hidden;
-}
-
-main > ul > li > a > img {
-    height: 150px;
-    border-radius: 0.75rem;
-}
-
-main > ul > li + li {
-    margin-left: 20px;
-}
-
-main > img {
-    width: 100%;
-    margin: 1rem;
-    margin-left: 0;
-}
 
 main > h5 > a > button {
     height: 3rem;
@@ -134,38 +143,11 @@ main > h5 > a > button:hover {
     color: #fff;
 }
 
-h1 {
-    margin: .75rem;
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-h2 {
-    margin: .5rem;
-    font-size: 1.75rem;
-    font-weight: bold;
-}
-
-h3 {
-    margin: .5rem;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-h4 {
-    margin: .5rem;
-    font-size: 1.25.rem;
-}
-
-h5 {
-    font-size: 1.rem;
-    margin-left: .5rem;
-}
-
-a {
-    color: #F44;
-}
-
 main > h3 > img {
+    border-radius: 50%;
+}
+
+.redondinho {
+    
     border-radius: 50%;
 }
