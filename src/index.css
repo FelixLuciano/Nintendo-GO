@@ -11,6 +11,10 @@ main > ul {
     overflow-y: hidden;
 }
 
+main > ul > li {
+    flex: 1 0 auto;
+}
+
 main > ul > li > a > img {
     height: 150px;
     border-radius: 0.75rem;
