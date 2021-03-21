@@ -28,6 +28,10 @@ header > input[type="search"] {
     text-align: center;
 }
 
+header > input[type="search"] ::-ms-clear {
+    display: none;
+}
+
 header > input[type="search"]:focus {
     outline: none;
     border-width: 2px;
@@ -86,30 +90,30 @@ main > * {
 }
 
 h1 {
-    margin: .75rem;
+    margin: .75rem 0;
     font-size: 2rem;
     font-weight: bold;
 }
 
 h2 {
-    margin: .5rem;
+    margin: .5rem 0;
     font-size: 1.75rem;
     font-weight: bold;
 }
 
 h3 {
-    margin: .5rem;
+    margin: .5rem 0;
     font-size: 1.5rem;
     font-weight: bold;
 }
 
 h4 {
-    margin: .5rem;
+    margin: .5rem 0;
     font-size: 1.25rem;
 }
 
 h5 {
-    font-size: 1rem;
+    font-size: 1rem 0;
     margin-left: .5rem;
 }
 
@@ -118,7 +122,30 @@ a {
     text-decoration: none;
 }
 
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 /* REVISAR */
+
+/*  */
+main > article > a > button {
+    height: 3rem;
+    width: 8rem;
+    background-color: #e60012;
+    border-radius: .3rem;
+    border: 1px solid #e60012;
+    font-size: 1.3rem;
+    margin: .5rem;
+    color: #fff;
+}
+
+main > article > a > button:hover {
+    background-color: rgb(180, 0, 0);
+    border: 1px solid #e60012;
+    color: #fff;
+}
 
 main > h5 > a > button {
     height: 3rem;
@@ -128,26 +155,15 @@ main > h5 > a > button {
     border: 1px solid #e60012;
     font-size: 1.3rem;
     margin: .5rem;
+    color: #fff;
 }
 
 main > h5 > a > button:hover {
     background-color: rgb(180, 0, 0);
     border: 1px solid #e60012;
-}
-
-main > h5 > a > button {
     color: #fff;
-}
-
-main > h5 > a > button:hover {
-    color: #fff;
-}
-
-main > h3 > img {
-    border-radius: 50%;
 }
 
 .redondinho {
-    
     border-radius: 50%;
 }

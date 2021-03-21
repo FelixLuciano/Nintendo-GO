@@ -1,7 +1,8 @@
 main {
-    display: flex;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
 }
 
 main > ul > li {
-    
+    margin-bottom: 1rem;
 }
