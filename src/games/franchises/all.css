@@ -1,0 +1,12 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+main > h2 {
+    width: 100%;
+}
+
+main > ul > li {
+    width: 25%;
+    padding: 0.5rem;
+}

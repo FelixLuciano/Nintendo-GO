@@ -2,7 +2,7 @@
 @import "reset.css";
 
 body {
-    background-color: #EEE;
+    background-color: #F1F1F1;
     padding: 0 .8rem;
     font-family: 'Roboto', sans-serif;
 }
@@ -160,4 +160,12 @@ h4 {
 h5 {
     font-size: 1.rem;
     margin-left: .5rem;
+}
+
+a {
+    color: #F44;
+}
+
+main > h3 > img {
+    border-radius: 50%;
 }
