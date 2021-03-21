@@ -8,6 +8,6 @@ main > h2 {
 }
 
 main > article {
-    width: 25%;
+    width: calc(100% / 3);
     padding: 0.5rem;
 }

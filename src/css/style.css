@@ -129,8 +129,8 @@ main {
 
 /* REVISAR */
 
-/*  */
-main > article > a > button {
+/* Botão bonitinho */
+.btn-generico {
     height: 3rem;
     width: 8rem;
     background-color: #e60012;
@@ -141,29 +141,13 @@ main > article > a > button {
     color: #fff;
 }
 
-main > article > a > button:hover {
-    background-color: rgb(180, 0, 0);
-    border: 1px solid #e60012;
-    color: #fff;
+.btn-generico:hover {
+    background-color: #fff;
+    color: #e60012;
 }
 
-main > h5 > a > button {
-    height: 3rem;
-    width: 8rem;
-    background-color: #e60012;
-    border-radius: .3rem;
-    border: 1px solid #e60012;
-    font-size: 1.3rem;
-    margin: .5rem;
-    color: #fff;
-}
-
-main > h5 > a > button:hover {
-    background-color: rgb(180, 0, 0);
-    border: 1px solid #e60012;
-    color: #fff;
-}
-
-.redondinho {
+/* Formatação da foto de perfil */
+#perfil {
     border-radius: 50%;
+    width: 8rem;
 }
