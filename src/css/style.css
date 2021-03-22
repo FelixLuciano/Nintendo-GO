@@ -129,7 +129,7 @@ main {
 
 /* REVISAR */
 
-/* Botão bonitinho */
+/* Botões bonitinhos */
 .btn-generico {
     height: 3rem;
     width: 8rem;
@@ -146,8 +146,35 @@ main {
     color: #e60012;
 }
 
+.btn-desabilitado {
+    height: 3rem;
+    width: 8rem;
+    background-color: #333;
+    border-radius: .3rem;
+    border: 1px solid #333;
+    font-size: 1.3rem;
+    margin: .5rem;
+    color: #fff;
+}
+
 /* Formatação da foto de perfil */
 #perfil {
     border-radius: 50%;
     width: 8rem;
+}
+
+#cartao {
+    height: 3rem;
+    width: 16rem;
+    background-color: #e60012;
+    border-radius: .3rem;
+    border: 1px solid #e60012;
+    font-size: 1.3rem;
+    margin: .5rem;
+    color: #fff;
+}
+
+#cartao:hover {
+    background-color: #fff;
+    color: #e60012;
 }
