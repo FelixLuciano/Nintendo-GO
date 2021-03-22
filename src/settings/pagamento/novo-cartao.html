@@ -11,12 +11,14 @@
     </head>
     <body>
         <header>
-            <input id="search-bar" type="search">
-            <label for="search-bar">
-                <div></div>
-                <img src="/src/images/icons/logo.svg" alt="Nintendo">
-                <img src="/src/images/icons/search.svg" alt="Search">
-            </label>
+            <form action="/src/games/games.html">
+                <input id="search-bar" type="search" name="search">
+                <label for="search-bar">
+                    <div></div>
+                    <img src="/src/images/icons/logo.svg" alt="Nintendo">
+                    <img src="/src/images/icons/search.svg" alt="Search">
+                </label>
+            </form>
         </header>
         <nav>
             <ul>
@@ -49,25 +51,21 @@
         </nav>
         <main>
             <h2>Adicionar Cartão</h2>
-            <ul>
-                <li>
-                    <p>Titular:</p>
-                    <input id="search-bar" type="search">
-                </li>
-                <li>
-                    <p>Número:</p>
-                    <input id="search-bar" type="search">
-                </li>
-                <li>
-                    <p>CVV:</p>
-                    <input id="search-bar" type="search">
-                </li>
-                <li>
-                    <p>Vencimento:</p>
-                    <input id="search-bar" type="search">
-                </li>
-                
-            </ul>
+            <form action="/src/settings/pagamento.html">
+                <label for="titular">Titular: </label>
+                <input id="titular" placeholder="MARIO DA SILVA">
+                <br>
+                <label for="numero">Número: </label>
+                <input id="numero" placeholder="0123 4567 8901 2345">
+                <br>
+                <label for="cvv">CVV: </label>
+                <input id="cvv" placeholder="000">
+                <br>
+                <label for="vencimento">Vencimento: </label>
+                <input id="vencimento" placeholder="MM/AAAA">
+                <br>
+                <input type="submit" class="btn-generico" value="Adicionar">
+            </form>
         </main>
     </body>
 </html>
