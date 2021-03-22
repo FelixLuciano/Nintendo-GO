@@ -29,17 +29,20 @@ header > form > input[type="search"] {
     border: 1px solid #CCC;
     border-radius: 100px;
     padding: 0.625rem 1.25rem;
+    background-color: #FFF;
+    background-image: url(/src/images/icons/logo.svg), url(/src/images/icons/search.svg);
+    background-size: auto 1.6rem, auto 1.5rem;
+    background-repeat: no-repeat;
+    background-position: center center, calc(100% - 1rem) center;
     text-align: center;
-}
-
-header > form > input[type="search"] ::-ms-clear {
-    display: none;
 }
 
 header > form > input[type="search"]:focus {
     outline: none;
     border-width: 2px;
     border-color: #F22;
+    background-image: none, url(/src/images/icons/search.svg);
+    background-position: center center, calc(100% - 1rem + 1px) center;
 }
 
 header > form > label {
@@ -51,22 +54,6 @@ header > form > label {
     align-items: center;
     position: relative;
     top: -2rem;
-}
-
-header > form > label > img:first-of-type {
-    height: 1.6rem;
-    position: relative;
-    left: 0.75rem;
-}
-
-header > form > input[type="search"]:focus + label > img:first-of-type {
-    opacity: 0;
-    visibility: hidden;
-}
-
-header > form > label > img:nth-of-type(2) {
-    height: 1.5rem;
-    margin-right: 1rem;
 }
 
 nav {
@@ -131,18 +118,20 @@ main {
     margin: 0 auto;
 }
 
-/* REVISAR */
-
 /* Botões bonitinhos */
 .btn-generico {
     height: 3rem;
     width: 8rem;
-    background-color: #e60012;
-    border-radius: .3rem;
+    padding: .5rem 1rem;
     border: 1px solid #e60012;
-    font-size: 1.3rem;
-    margin: .5rem;
+    border-radius: .3rem;
+    background-color: #e60012;
+    font-size: 1rem;
     color: #fff;
+}
+
+.btn-generico + .btn-generico {
+    margin-left: .5rem;
 }
 
 .btn-generico:hover {
@@ -150,14 +139,9 @@ main {
     color: #e60012;
 }
 
-.btn-desabilitado {
-    height: 3rem;
-    width: 8rem;
+.btn-desabilitado, .btn-desabilitado:hover {
     background-color: #333;
-    border-radius: .3rem;
     border: 1px solid #333;
-    font-size: 1.3rem;
-    margin: .5rem;
     color: #fff;
 }
 
