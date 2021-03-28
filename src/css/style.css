@@ -5,6 +5,7 @@ body {
     background-color: #F1F1F1;
     padding: 0 .8rem 4rem .8rem;
     font-family: 'Roboto', sans-serif;
+    overflow-y: scroll;
 }
 
 header {
@@ -30,7 +31,7 @@ header > form > input[type="search"] {
     border-radius: 100px;
     padding: 0.625rem 1.25rem;
     background-color: #FFF;
-    background-image: url(/src/images/icons/logo.svg), url(/src/images/icons/search.svg);
+    background-image: url(../images/icons/logo.svg), url(../images/icons/search.svg);
     background-size: auto 1.6rem, auto 1.5rem;
     background-repeat: no-repeat;
     background-position: center center, calc(100% - 1rem) center;
@@ -41,7 +42,7 @@ header > form > input[type="search"]:focus {
     outline: none;
     border-width: 2px;
     border-color: #F22;
-    background-image: none, url(/src/images/icons/search.svg);
+    background-image: none, url(../images/icons/search.svg);
     background-position: center center, calc(100% - 1rem + 1px) center;
 }
 
