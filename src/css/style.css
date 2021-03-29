@@ -1,11 +1,12 @@
 @import "reset.css";
 
 /* Fontes */
-/* Roboto */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-/* Noto Sans JP */
+/* Noto Sans JP -Primária*/
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+
+/* Roboto - Secundária*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* Sorts Mill Goudy */
 @import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap');
@@ -16,7 +17,7 @@
 body {
     background-color: #F1F1F1;
     padding: 0 .8rem 4rem .8rem;
-    font-family: 'Sorts Mill Goudy', serif;
+    font-family: 'Source Serif Pro', 'Sorts Mill Goudy', serif;
     overflow-y: scroll;
 }
 
