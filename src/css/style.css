@@ -1,10 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import "reset.css";
+
+/* Fontes */
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Noto Sans JP */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+
+/* Sorts Mill Goudy */
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap');
+
+/* Source Serif Pro */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
 
 body {
     background-color: #F1F1F1;
     padding: 0 .8rem 4rem .8rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Sorts Mill Goudy', serif;
     overflow-y: scroll;
 }
 
@@ -30,7 +42,7 @@ header > form > input[type="search"] {
     border: 1px solid #CCCCCC;
     border-radius: 100px;
     padding: 0.625rem 1.25rem;
-    background-color: #FFF;
+    background-color: #FFFFFF;
     background-image: url(../images/icons/logo.svg), url(../images/icons/search.svg);
     background-size: auto 1.6rem, auto 1.5rem;
     background-repeat: no-repeat;
@@ -41,7 +53,7 @@ header > form > input[type="search"] {
 header > form > input[type="search"]:focus {
     outline: none;
     border-width: 2px;
-    border-color: #F22;
+    border-color: #E60012;
     background-image: none, url(../images/icons/search.svg);
     background-position: center center, calc(100% - 1rem + 1px) center;
 }
@@ -79,6 +91,11 @@ nav > ul > li > a > img {
 
 main > * {
     margin-top: 1rem;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Noto Sans JP', 'Roboto', sans-serif;
+    font-weight: 700;
 }
 
 h1 {
